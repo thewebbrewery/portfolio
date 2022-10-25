@@ -33,7 +33,7 @@ window.addEventListener("scroll", () => {
 function sendEmail() {
 
     let name = document.getElementById("name").value
-    // let email = document.getElementById("email").value
+    let email = document.getElementById("email").value
     let subject = document.getElementById("subject").value
     let message = document.getElementById("message").value
     Email.send({
