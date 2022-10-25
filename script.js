@@ -43,7 +43,7 @@ function sendEmail() {
         To: "jatinmehrajm859@gmail.com",
         From: "imperfectocafe@gmail.com",
         Subject: "Mail from portfolio contact form",
-        Body: "Name :" + name + "<br/>  User Mail :" + email + "<br/> Subject :" + subject + "<br/> Message :" + message
+        Body: "Name :- " + name + "<br/>  User Mail :- " + email + "<br/> Subject :- " + subject + "<br/> Message :- " + message
     }).then(
         message => alert(message)
     );
@@ -55,13 +55,13 @@ function sendEmail() {
 ScrollReveal({
     reset: true,
     distance: '60px',
-    duration: 1000,
-    delay: 100
+    duration: 800,
+    delay: 80
 });
 
-ScrollReveal().reveal('.navbar', { delay: 50, origin: 'top' });
-ScrollReveal().reveal('.pro', { delay: 50, origin: 'right' });
-ScrollReveal().reveal('.headscroll', { delay: 50, origin: 'left' });
-ScrollReveal().reveal('.intro-text', { delay: 50, origin: 'left' });
-ScrollReveal().reveal('.section-img', { delay: 50, origin: 'right' });
-ScrollReveal().reveal('.inner-desc', { delay: 50, origin: 'bottom' });
+ScrollReveal().reveal('.navbar', { delay: 40, origin: 'top' });
+ScrollReveal().reveal('.pro', { delay: 40, origin: 'right' });
+ScrollReveal().reveal('.headscroll', { delay: 40, origin: 'left' });
+ScrollReveal().reveal('.intro-text', { delay: 40, origin: 'left' });
+ScrollReveal().reveal('.section-img', { delay: 40, origin: 'right' });
+ScrollReveal().reveal('.inner-desc', { delay: 40, origin: 'bottom' });
