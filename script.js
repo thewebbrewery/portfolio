@@ -38,10 +38,10 @@ function sendEmail() {
     let message = document.getElementById("message").value
     Email.send({
         Host: "smtp.elasticemail.com",
-        Username: "jatinmehra859@gmail.com",
-        Password: "8AC7D03AED46B85C591D14C0165CFE29DFF3",
+        Username: "imperfectocafe@gmail.com",
+        Password: "05D01BFD5F8D576B1AA1BE201A62A126C40D",
         To: "jatinmehrajm859@gmail.com",
-        From: "jatinmehra859@gmail.com",
+        From: "imperfectocafe@gmail.com",
         Subject: "Mail from portfolio contact form",
         Body: "Name :" + name + "<br/>  User Mail :" + email + "<br/> Subject :" + subject + "<br/> Message :" + message
     }).then(
