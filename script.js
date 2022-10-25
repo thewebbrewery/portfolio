@@ -55,13 +55,13 @@ function sendEmail() {
 ScrollReveal({
     reset: true,
     distance: '60px',
-    duration: 2000,
-    delay: 200
+    duration: 1000,
+    delay: 100
 });
 
-ScrollReveal().reveal('.navbar', { delay: 100, origin: 'top' });
-ScrollReveal().reveal('.pro', { delay: 100, origin: 'right' });
-ScrollReveal().reveal('.headscroll', { delay: 100, origin: 'left' });
-ScrollReveal().reveal('.intro-text', { delay: 100, origin: 'left' });
-ScrollReveal().reveal('.section-img', { delay: 100, origin: 'right' });
-ScrollReveal().reveal('.inner-desc', { delay: 100, origin: 'bottom' });
+ScrollReveal().reveal('.navbar', { delay: 50, origin: 'top' });
+ScrollReveal().reveal('.pro', { delay: 50, origin: 'right' });
+ScrollReveal().reveal('.headscroll', { delay: 50, origin: 'left' });
+ScrollReveal().reveal('.intro-text', { delay: 50, origin: 'left' });
+ScrollReveal().reveal('.section-img', { delay: 50, origin: 'right' });
+ScrollReveal().reveal('.inner-desc', { delay: 50, origin: 'bottom' });
