@@ -41,7 +41,7 @@ function sendEmail() {
         Username: "jatinmehra859@gmail.com",
         Password: "8AC7D03AED46B85C591D14C0165CFE29DFF3",
         To: "jatinmehrajm859@gmail.com",
-        From: document.getElementById("email").value,
+        From: "jatinmehra859@gmail.com",
         Subject: "Mail from portfolio contact form",
         Body: "Name :" + name + "<br/>  User Mail :" + email + "<br/> Subject :" + subject + "<br/> Message :" + message
     }).then(
