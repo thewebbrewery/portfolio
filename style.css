@@ -798,6 +798,10 @@ html {
         align-items: center;
         justify-content: space-between;
     }
+    
+    .projects-section .p-container {
+        flex-wrap: wrap;
+    }
 
     .skills-section .skills-container .skill-icon-img {
         height: 8.5rem;
@@ -812,7 +816,7 @@ html {
     }
 
     .projects-section .p-container .project {
-        padding: 50px;
+        padding: 48px;
         line-height: 2;
     }
 
