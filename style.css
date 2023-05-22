@@ -218,19 +218,19 @@ html {
 }
 
 .content .intro-text {
-    font-size: 3.2rem;
+    font-size: 2.5rem;
     font-weight: 600;
     color: #571089;
 }
 
 .content .intro-text h3 {
     margin-top: 12px;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .content .intro-text .description {
-    font-size: 1rem;
-    margin-top: 28px;
+    font-size: 0.85rem;
+    margin: 28px 5rem auto;
     line-height: 1.4;
 }
 
@@ -755,6 +755,7 @@ html {
         word-wrap: break-word;
         font-size: 1.2rem;
         font-weight: 500;
+        margin-left: 0;
     }
 
     .home-section .content .intro-text .btn {
