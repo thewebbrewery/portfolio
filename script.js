@@ -5,7 +5,6 @@ let typewriter = new Typewriter(autotype, {
     strings: [
         "Frontend Developer",
         "देसी Programmer",
-        "UI Designer",
         "बेरोजगार Engineer"
     ],
     autoStart: true,
