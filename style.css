@@ -617,6 +617,7 @@ html {
     color: #7402d1;
 }
 .footer-section .social-links .social-icons .x-icon{
+    filter: hue-rotate(273deg);
     color: #7402d1;
     width:70px;
 }
