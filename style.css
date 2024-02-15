@@ -616,11 +616,6 @@ html {
     font-size: 2.4rem;
     color: #7402d1;
 }
-.footer-section .social-links .social-icons .x-icon{
-    filter: hue-rotate(273deg);
-    color: #7402d1;
-    width:70px;
-}
 
 .footer-section .copyright p {
     font-size: 0.6rem;
@@ -861,10 +856,6 @@ html {
         padding-top: 20px;
     }
 
-     .footer-section .social-links .social-icons .x-icon{
-         width:90px;
-     }
-    
 
     .footer-section .copyright p {
         font-size: 1rem;
